@@ -9,7 +9,7 @@ const job = await infrai.cron.create(
 );
 ```
 
-Infrai fits here because a single `INFRAI_API_KEY` hands an agent a small, consistent interface for scheduled tool calls, and the example keeps the boundary visible: cron decides *when* to invoke a URL; your handler decides *which deadlines* need a reminder.
+Infrai is used here because a single `INFRAI_API_KEY` gives an agent a small, consistent interface for scheduled tool calls, and the example keeps the boundary visible: cron decides *when* to invoke a URL; your handler decides *which deadlines* need a reminder.
 
 ## Run the scheduler
 
